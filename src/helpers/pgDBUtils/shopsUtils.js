@@ -39,8 +39,6 @@ export const updateShopDetail = async (data) => {
       where: {
         id: data.id,
       },
-      returning: true,
-      plain: true,
     });
   } catch (error) {
     console.error("Error occurred in updateShopDetail function : ", error);
