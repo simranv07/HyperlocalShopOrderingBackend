@@ -63,8 +63,8 @@ Create a `.env` file in the root directory and add:
 ```
 PORT=5000
 DB_NAME=hyperlocal_shop_ordering_db
-DB_USER=your_db_user
-DB_PASSWORD=your_db_password
+DB_USER=postgres
+DB_PASSWORD=1234
 DB_HOST=localhost
 ```
 
