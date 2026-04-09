@@ -1,0 +1,7 @@
+export const SUCCESS_CODE = 200;
+export const VALIDATION_ERROR_CODE = 422;   
+export const BAD_REQUEST_ERROR_CODE = 400;
+export const NOT_FOUND_ERROR_CODE = 404;
+export const DATA_ALREADY_EXIST_CODE = 409;
+export const UNAUTHORIZED_ERROR_CODE = 401;
+export const INTERNAL_SERVER_ERROR_CODE=500;

@@ -11,13 +11,13 @@ Follow the steps below to set up and run the project locally.
 1. Create a PostgreSQL database:
 
 ```
-hyperlocal_shop_ordering_db
+"hyperlocal_shop_ordering_db"
 ```
-NOTE:- Makesure your db password and update it in config.js
+
 2. Create a schema inside the database:
 
 ```
-hyperlocal_shop_ordering
+"hyperlocal_shop_ordering"
 ```
 
 ---
@@ -30,7 +30,7 @@ After cloning the repository, navigate to the project folder and run:
 npx sequelize-cli db:migrate
 ```
 
-This will automatically create all required tables in the database.
+ This will automatically create all required tables in the database.
 
 ---
 
@@ -56,7 +56,7 @@ The server will start on the configured port (e.g., http://localhost:5000)
 
 ---
 
-## Environment Variables
+## Environment Variables    
 
 Create a `.env` file in the root directory and add:
 
@@ -70,14 +70,14 @@ DB_HOST=localhost
 
 ---
 
-## 📬 API Testing
+##  API Testing
 
 You can test APIs using Postman.
 Make sure to import the provided Postman collection (if included).
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 * Node.js
 * Express.js
@@ -85,4 +85,11 @@ Make sure to import the provided Postman collection (if included).
 * Sequelize ORM
 * JWT Authentication
 
+---
+
+##  Notes
+
+* Ensure PostgreSQL is running before starting the server.
+* Run migrations before starting the application.
+* Use proper `.env` configuration to avoid connection issues.
 
