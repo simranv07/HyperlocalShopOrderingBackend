@@ -69,15 +69,16 @@ DB_HOST=localhost
 ```
 
 ---
+## In postman collection it is mandatory to select environment as local.
 
-## 📬 API Testing
+## API Testing
 
 You can test APIs using Postman.
 Make sure to import the provided Postman collection (if included).
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 * Node.js
 * Express.js
